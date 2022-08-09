@@ -1,0 +1,218 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc4.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+.header {
+  background-color: #007765;
+  height: 84px;
+  width: 100%;
+  max-width: 100%;
+  /*padding: 15px;
+  margin: 0 auto;*/
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+  position: fixed;
+}
+.border {
+  border-right: 2px solid white;
+  border-width: 2px;
+  height: 7px;
+  padding-right: 10px;
+  padding-bottom: 19px;
+}
+.container {
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+.logo {
+  float: left;
+  margin-left: 501px;
+  margin-bottom: 18px;
+  margin-top: 20px;
+}
+nav {
+  float: right;
+  margin-right: 200px;
+  margin-top: 25px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+nav a {
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  line-height: 28px;
+}
+.pipernet {
+  /* width: 100%;
+  height: 403px;*/
+  background: url(/img/image\ .png);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-size: 72px;
+  font-weight: 500;
+  padding-top: 250px;
+  padding-bottom: 150px;
+  text-align: center;
+  /*display: flex;*/
+
+  align-items: center;
+  justify-content: center;
+}
+.pr_container {
+  /*width: 100%;
+  height: 671px;*/
+  text-align: center;
+  background-color: #eeeeee;
+  padding-top: 48px;
+  padding-bottom: 92px;
+}
+.problem {
+  font-size: 64px;
+  color: #007765;
+  text-align: center;
+  font-weight: 500;
+}
+.text {
+  font-size: 32px;
+  text-align: left;
+  align-items: center;
+  padding-left: 450px;
+}
+
+.were {
+  /*width: 100%;
+  height: 483px;*/
+  background: url(/img/were.png);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+.itroducing_container {
+  /*width: 100%;
+  height: 604px;*/
+  background-color: #ffffff;
+  font-size: 75px;
+  font-weight: 500;
+  text-align: center;
+  color: #007765;
+  padding-top: 20px;
+}
+.content {
+  /*width: 100%;
+  height: 604px;*/
+  font-size: 32px;
+  align-items: center;
+
+  padding-left: 340px;
+  padding-top: 16px;
+}
+.ppc_logo {
+  float: left;
+  padding-right: 38px;
+  padding-bottom: 10px;
+}
+.text_logo {
+  font-size: 32px;
+  align-items: center;
+
+  padding-left: 335px;
+  padding-top: 18px;
+  padding-bottom: 45px;
+}
+.team {
+  /*width: 100%;
+  height: 223px;*/
+  background-color: #eeeeee;
+
+  padding-top: 20px;
+}
+.team_head {
+  font-size: 75px;
+  font-weight: 500;
+  text-align: center;
+  color: #007765;
+  padding-bottom: 56px;
+  padding-top: 58px;
+}
+.gallery {
+  padding-left: 260px;
+
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 455px);
+  grid-template-rows: repeat(3, 90px);
+
+  /*grid-gap: 105px;*/
+
+  grid-row-gap: 280px;
+}
+.name {
+  padding-top: 12px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #007765;
+}
+.work {
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+  padding-bottom: 70px;
+}
+
+.footer {
+  /*width: 100%;
+  height: 176px;*/
+  background-color: #333333;
+}
+
+.footer_text {
+  color: #ffffff;
+  text-align: center;
+  align-items: center;
+  font-size: 18px;
+  padding-top: 88px;
+  padding-bottom: 88px;
+}
